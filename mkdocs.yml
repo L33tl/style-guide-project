@@ -1,0 +1,12 @@
+site_name: Руководство по стилю документации Amigo
+nav:
+  - Главная: index.md
+  - Общие принципы: principles.md
+  - Терминология: terminology.md
+  - Оформление текста: formatting.md
+  - Доступность: accessibility.md
+
+theme:
+  name: material
+  language: ru
+

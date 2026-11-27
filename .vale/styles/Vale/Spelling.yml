@@ -1,0 +1,5 @@
+extends: spelling
+message: "Возможная орфографическая ошибка: '%s'. Проверьте написание."
+level: error
+ignorecase: true
+

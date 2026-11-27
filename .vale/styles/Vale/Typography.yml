@@ -1,0 +1,8 @@
+extends: existence
+message: "Используйте кавычки-ёлочки «» и тире — вместо дефиса - в тексте."
+level: warning
+nonword: true
+tokens:
+  - '"[^"]+"'
+  - ' - '
+
