@@ -1,4 +1,5 @@
 site_name: Руководство по стилю документации Amigo
+site_url: https://l33tl.github.io/style-guide-project/
 nav:
   - Главная: index.md
   - Общие принципы: principles.md
