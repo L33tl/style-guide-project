@@ -1,0 +1,23 @@
+name: Lint Documentation
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  vale:
+    name: Run Vale
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Vale
+        uses: errata-ai/vale-action@v2
+        with:
+          files: all
+          fail_on_error: true
+          filter_mode: nofilter
+          reporter: github-pr-annotations

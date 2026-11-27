@@ -1,6 +1,6 @@
 extends: substitution
 message: "Используйте термин '%s' вместо '%s'."
-level: warning
+level: error
 ignorecase: true
 swap:
   вконтакте: ВКонтакте
