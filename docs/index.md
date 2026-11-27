@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Руководство по стилю документации Amigo
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Добро пожаловать в стайлгайд для написания документации браузера Amigo. 
 
-## Commands
+Этот документ поможет техническим писателям, разработчикам и маркетологам создавать единообразные, понятные и полезные тексты для наших пользователей. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Для кого этот документ
+Для всех, кто пишет тексты для справки, блога, интерфейса или обучающих материалов Amigo.
 
-## Project layout
+## Основная цель
+Сделать так, чтобы пользователь мог быстро найти ответ на свой вопрос и без проблем выполнить нужное действие в браузере.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
